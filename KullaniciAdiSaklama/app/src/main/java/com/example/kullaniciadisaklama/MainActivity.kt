@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         sharedPreferences = this.getSharedPreferences("com.example.kullaniciadisaklama", MODE_PRIVATE)
 
-        alinanKullaniciAdi = sharedPreferences.getString("kullaniciAdi","")
+        alinanKullaniciAdi = sharedPreferences.getString("kullaniciAdi","")//buradaki ilk parametremiz aşşağıda key ile verdiğimiz kullaniciAdi 
 
         if(alinanKullaniciAdi!=null)
         {
